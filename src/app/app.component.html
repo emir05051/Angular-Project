@@ -1,0 +1,17 @@
+<div class="main">
+  <div class="flex column m-500">
+    <input type="text" placeholder="title" [(ngModel)]="taskTitle" />
+    <input
+      type="text"
+      placeholder="description"
+      [(ngModel)]="taskDescription"
+    />
+    <button (click)="checkTitle(); addTask()">Create</button>
+    <div *ngFor="let task of tasks; let i = index" class="card flex column">
+      <h2>{{ task.title }}</h2>
+      <hr />
+      <p>{{ task.description }}</p>
+      <button (click)="deleteTask(i)" class="deleteButton">Delete</button>
+    </div>
+  </div>
+</div>

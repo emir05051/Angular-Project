@@ -1,0 +1,47 @@
+h2 {
+  margin-bottom: 0;
+}
+hr {
+  width: 100%;
+  border: none;
+  color: black;
+  background-color: black;
+  height: 1px;
+  margin: 0;
+}
+
+.main {
+  padding: 0;
+  margin: 0;
+}
+.flex {
+  display: flex;
+}
+.flex input {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.flex button {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.column {
+  flex-direction: column;
+}
+.m-500 {
+  max-width: 500px;
+}
+.card {
+  border: 1px solid gray;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 8px;
+}
+.deleteButton {
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  color: white;
+  background-color: red;
+  cursor: pointer;
+}
