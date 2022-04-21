@@ -1,0 +1,50 @@
+button {
+  background-color: grey;
+  border: none;
+  width: 100%;
+  padding: 10px;
+  max-width: 800px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: white;
+  cursor: pointer;
+}
+button:disabled {
+  background-color: grey;
+  cursor: not-allowed;
+}
+input {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 10px;
+}
+input:focus {
+  outline: none;
+  box-shadow: 6px 7px 17px;
+}
+form {
+  width: 500px;
+}
+p {
+  font-size: 20px;
+  color: red;
+  text-align: center;
+}
+.main {
+  background-color: #35455d;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.flex {
+  display: flex;
+}
+.column {
+  flex-direction: column;
+}
+.max-300 {
+  max-width: 800px;
+}
